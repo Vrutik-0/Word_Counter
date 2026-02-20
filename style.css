@@ -1,0 +1,22 @@
+textarea {
+    transition: all 0.3s ease-in-out;
+}
+
+textarea:focus {
+    transform: scale(1.02);
+}
+
+.card {
+    background-color: violet;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.5); 
+}
